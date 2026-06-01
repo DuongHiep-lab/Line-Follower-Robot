@@ -51,7 +51,7 @@ The project is divided into three main layers:
 
 ## 3. MQTT Protocol & Payload Structure
 
-The system utilizes an MQTT Broker (default IP: `10.11.57.234:1883`) to exchange JSON payloads.
+The system utilizes an MQTT Broker to exchange JSON payloads.
 
 ### 📥 Subscribe: `uet/robot/control`
 The ESP8266 listens to this topic and forwards the JSON string directly to the STM32 via Serial.
